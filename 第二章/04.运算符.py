@@ -51,9 +51,17 @@ num **= 3  # num = num ** 3
 
 print("num **= 3后，num=", num)
 
-
-#比较预算符
+# 比较预算符
 # == !=  > >= < <=
 
-#逻辑运算符
-
+# 逻辑运算符
+# and or not
+zll = 27
+if 0 <= zll <= 20:
+    print(f"{zll} 在0-20之间")
+    print(f"欢迎您进入")
+    print(f"欢迎您进入2")
+else:
+    print(f"{zll} 不在0-20之间")
+    print(f"欢迎您出去")
+    print(f"欢迎您出去2")
